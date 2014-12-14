@@ -1,0 +1,34 @@
+.chat-wrap{
+  width: 700px;
+  margin: 10px auto;
+  background-color: #efefef;
+  padding: 10px;
+}
+
+.chat-wrap .chat-list{
+  height: 400px;
+}
+
+.chat-wrap .chat-actions{
+  padding: 10px;
+  border-top: 10px solid #ccc;
+  margin: 0 -10px;
+}
+
+.clearfix:before, .clearfix:after{
+    display: block;
+    content: "";
+}
+.clearfix:after{
+    clear: both;
+}
+
+.chat-list .words-line .mine-words{
+  max-width: 380px;
+  float: left;
+}
+
+.chat-list .words-line .their-words{
+  max-width: 380px;
+  float: right;
+}
